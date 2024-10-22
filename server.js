@@ -11,7 +11,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 
 // let's take cors
 const corsOptions = {
-    origin: "http://localhost:5173",
+    origin: "https://mern-client-kohl.vercel.app",
     method:"GET, POST, PUT, DELETE, PATCH, HEAD ",
     creditionals: true,
 };
